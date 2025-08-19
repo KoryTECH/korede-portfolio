@@ -277,6 +277,7 @@ i {
     gap: 10px;
   }
   .mainhero {
+    font-size:30px;
     margin: 0;
   }
   .aboutdiv {
@@ -349,3 +350,4 @@ i {
   }
 
 }
+
