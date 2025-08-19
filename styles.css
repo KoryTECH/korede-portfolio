@@ -197,7 +197,7 @@ button:hover {
 }
 input {
   margin-bottom: 20px;
-  width: 500px;
+  max-width: 500px;
   height: 70px;
   border-radius: 20px;
   border: none;
@@ -306,8 +306,6 @@ i {
   }
   input {
     margin-bottom: 20px;
-    width: 90%;
-    max-width: 500px;
     height: 70px;
     border-radius: 20px;
     border: none;
@@ -349,4 +347,5 @@ i {
     position: relative;
     left: 35px;
   }
+
 }
