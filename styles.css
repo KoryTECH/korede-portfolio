@@ -124,7 +124,7 @@ button:hover {
   margin-top: 50px;
   flex-wrap: wrap;
   max-width: 100%;
-  box-sizing: border-box;
+  box-sizing: border-box;
 }
 .projects {
   border: 1px solid white;
@@ -197,7 +197,7 @@ button:hover {
 }
 input {
   margin-bottom: 20px;
-  max-width: 500px;
+  width: 500px;
   height: 70px;
   border-radius: 20px;
   border: none;
@@ -211,10 +211,10 @@ input:focus,
 textarea:focus {
   outline: none;
 }
-textarea {
+.message {
   font-size: 1rem;
   word-spacing: normal;
-  min-width: 500px;
+  min-width: 400px;
   min-height: 100px;
   border-radius: 20px;
   padding: 8px 12px;
@@ -279,15 +279,6 @@ i {
   .mainhero {
     margin: 0;
   }
- .dev {
-   font-size: 3rem;
- } 
- .name{
-   font-size: 1.5rem;
- }
-  .hero{
-    font-size: 1rem;
-  }
   .aboutdiv {
     display: flex;
     flex-direction: column;
@@ -299,9 +290,6 @@ i {
     width: 300px;
     height: 300px;
   }
-  .aboutme,.portfolio,.skills,.touch{
-    font-size: 2rem
- }
   #projects {
     height: auto;
     flex-direction: column;
@@ -318,8 +306,8 @@ i {
   }
   input {
     margin-bottom: 20px;
+    max-width: 300px;
     height: 70px;
-    max-width: 400px;
     border-radius: 20px;
     border: none;
     color: black;
@@ -332,7 +320,7 @@ i {
   textarea {
     font-size: 1rem;
     word-spacing: normal;
-    width: 90%;
+    width: 100%;
     max-width: 500px;
     min-height: 100px;
     border-radius: 20px;
@@ -360,8 +348,4 @@ i {
     position: relative;
     left: 35px;
   }
-
 }
-
-
-
